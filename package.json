@@ -1,0 +1,19 @@
+{
+  "name": "kodilla-18.8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server",
+    "watch:browsersync": "browser-sync start --server --files 'styles.css' 'index.html' 'script.js' 'components/*.js' "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "babel-standalone": "^6.26.0"
+  }
+}
